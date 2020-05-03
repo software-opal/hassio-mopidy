@@ -47,12 +47,12 @@ RUN set -ex \
         python3-pip \
     && pip3 install -U six \
     && apt-get install -y \
-        mopidy-spotify \
         mopidy-dleyna \
         mopidy-podcast \
         mopidy-tunein \
     && pip3 install \
-        Mopidy-Moped \
+        Mopidy-Iris \
+        Mopidy-Muse \
     && apt-get purge --auto-remove -y \
         build-essential \
         curl \
