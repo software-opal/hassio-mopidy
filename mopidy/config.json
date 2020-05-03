@@ -1,6 +1,6 @@
 {
     "name": "Mopidy(Opal)",
-    "version": "0.2.9",
+    "version": "0.2.10",
     "slug": "opal-mopidy",
     "description": "Mopidy music server(GitHub)",
     "startup": "application",
