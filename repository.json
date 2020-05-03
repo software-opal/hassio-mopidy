@@ -1,5 +1,5 @@
 {
-    "name": "selleronom hassio addons",
-    "url": "https://github.com/selleronom/hassio-addons/",
-    "maintainer": "selleronom"
+    "name": "Opal's Hassio Addons",
+    "url": "https://github.com/software-opal/hassio-mopidy",
+    "maintainer": "Opal"
 }

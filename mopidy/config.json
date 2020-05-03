@@ -1,12 +1,12 @@
 {
     "name": "Mopidy(Opal)",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "slug": "opal-mopidy",
-    "description": "mopidy music server `/mnt/data/supervisor/addons/local/mopidy`",
+    "description": "Mopidy music server(GitHub)",
     "startup": "application",
     "boot": "auto",
     "audio": true,
-    "options": {"verbose": 2,
+    "options": {"verbose": 0,
                 "options": []},
     "schema": {
         "verbose": "int?",
@@ -15,7 +15,7 @@
     "devices": ["/dev/snd:/dev/snd:rwm"],
     "ports": {"6680/tcp": 6680, "6600/tcp": 6600},
     "map": ["share"],
-    "webui": "http://[HOST]:[PORT:6680]",
+    "webui": "http://[HOST]:[PORT:6680]/moped/",
     "host_ipc": true,
     "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"]
 }
