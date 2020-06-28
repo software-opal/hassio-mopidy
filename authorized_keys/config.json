@@ -1,0 +1,12 @@
+{
+  "name": "Authorized Keys Configurator(Opal)",
+  "version": "0.2.11",
+  "slug": "opal-authorized-keys",
+  "description": "Authorized Keys Configurator(GitHub)",
+  "startup": "once",
+  "boot": "manual",
+  "options": {"keys": []},
+  "schema": {"keys": ["str"]},
+  "devices": ["/root/.ssh/authorized_keys:/authorized_keys:rw"],
+  "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"]
+}
