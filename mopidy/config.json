@@ -3,6 +3,7 @@
     "version": "0.2.11",
     "slug": "opal-mopidy",
     "description": "Mopidy music server(GitHub)",
+    "image": "softwareopal/hassio-mopidy:latest"
     "startup": "application",
     "boot": "auto",
     "audio": true,
@@ -17,5 +18,5 @@
     "map": ["share"],
     "webui": "http://[HOST]:[PORT:6680]/",
     "host_ipc": true,
-    "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"]
+    "arch": ["armv7"]
 }
