@@ -3,7 +3,9 @@
     "version": "0.2.12",
     "slug": "opal-mopidy",
     "description": "Mopidy music server(GitHub)",
-    "image": "softwareopal/hassio-mopidy:latest",
+    "image": {
+        "armv7": "softwareopal/hassio-mopidy:latest"
+    },
     "startup": "application",
     "boot": "auto",
     "audio": true,
